@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EASYCOM Chat</title>
+        <link rel="stylesheet" href="css/style-basic.css" media="all" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i" media="all" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" media="all" />
+        <link rel="stylesheet" href="css/style.css" media="all" />
+        <link rel="shortcut icon" href="images/favicon.png">
+
+        <link rel="stylesheet" href="css/update.css" media="screen" />
+        <style class="customize">
+            .error {
+                display: block;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                color: #a94442;
+            }
+        </style>
+    </head>
+    <body class="hidden-title layout-no-sidebars wide js-preloader path-node node--type-page">
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="js/jquery-validation/dist/localization/messages_es_PE.min.js"></script>
+
+        <!--[if lte IE 8]>
+        <script src="/drupal/kiamo/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+        <![endif]-->
+        <script src="js/jq1.js"></script>
+        <script type="text/javascript" src="js/widget.min.js"></script>
+        <div class="rrss">
+            <a href="https://api.whatsapp.com/send?phone=+51918833975&text=Hola" class="whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        </div>
+        <a href="#main-content" class="visually-hidden focusable">
+            Skip to main content
+        </a>
+        <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+            <div class="body-page gva-body-page">
+                <div id="jpreContent">
+                    <div id="jprecontent-inner">
+                        <div class="preloader-wrapper hidden active">
+                            <img src="images/preloader-7.gif" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <header id="header" class="header-v2">
+                    <div class="header-main gv-sticky-menu">
+                        <div class="container header-content-layout">
+                            <div class="header-main-inner p-relative">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6 col-xs-8 branding">
+                                        <div>
+                                            <a href="#" title="Home" rel="home" class="site-branding-logo">
+                                                <img class="logo-white hidden logo-site" src="images/logo-propuesta2.png" alt="Home" />
+                                                <!--img class="logo-white hidden logo-site-1" src="images/logo-propuesta2.png" alt="Home" /-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9 col-sm-6 col-xs-4 p-static">
+                                        <div class="header-inner clearfix">
+                                            <div class="main-menu">
+                                                <div class="area-main-menu">
+                                                    <div class="area-inner">
+                                                        <div class="gva-offcanvas-mobile">
+                                                            <div class="close-offcanvas hidden"><i class="fa fa-times"></i></div>
+                                                            <div>
+                                                                <nav aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="block block-menu navigation menu--main">
+                                                                    <h2 class="visually-hidden block-title block-title" id="block-mainnavigation-menu"><span>Main navigation</span></h2>
+                                                                    <div class="block-content">
+                                                                        <div class="gva-navigation">
+                                                                            <ul class="clearfix gva_menu gva_menu_main">
+                                                                                <li class="menu-item">
+                                                                                    <a  href="#info-gral" class="ancla">
+                                                                                        Información Empresa
+                                                                                    </a>
+                                                                                </li>
+
+                                                                                <li class="menu-item">
+                                                                                    <a href="#funcionalidades" class="ancla">
+                                                                                        Funcionalidades
+                                                                                    </a>
+                                                                                </li>
+
+                                                                                <li class="menu-item">
+                                                                                    <a href="#contactanos" class="ancla">
+                                                                                        Habla con nosotros
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="menu-item">
+                                                                                    <a href="http://easycom.com.pe/proyecto_wizecom/">
+                                                                                        EASYCOM
+                                                                                    </a>
+                                                                                </li>
+
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </nav>
+                                                            </div>
+                                                        </div>
+                                                        <div id="menu-bar" class="menu-bar hidden-lg hidden-md">
+                                                            <span class="one"></span>
+                                                            <span class="two"></span>
+                                                            <span class="three"></span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div role="main" class="main main-page">
+                    <div class="clearfix"></div>
+                    <div class="help show">
+                        <div class="container">
+                            <div class="content-inner">
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="clearfix"></div>
+                    <div id="content" class="content content-full">
+                        <div class="container-full">
+                            <div class="content-main-inner">
+                                <div id="page-main-content" class="main-content">
+                                    <div class="main-content-inner">
+                                        <div class="content-main">
+                                            <div>
+                                                <div id="block-gavias-kiamo-content" class="block block-system block-system-main-block no-title">
+                                                    <div class="content block-content">
+                                                        <article data-history-node-id="4" role="article" typeof="schema:WebPage" class="node node--type-page node--view-mode-full">
+                                                            <header>
+                                                                <div class="container">
+                                                                    <div class="widget gsc-heading align-left style-1 padding-bottom-20">
+                                                                        <h2 class="node__title title">
+                                                                            <span><span property="schema:name">Home 4</span>
+                                                                            </span><span class="heading-line"></span>
+                                                                        </h2>
+                                                                    </div>
+                                                                </div>
+                                                            </header>
+                                                            <div class="node__content clearfix">
+                                                                <div class="field field--name-field-block-builder field--type-blockbuilder field--label-hidden field__item">
+                                                                    <div class="gavias-blockbuilder-content">
+                                                                        <div class="gavias-blockbuilder-content"><div class="gbb-row-wrapper">
+                                                                                <div class="gavias-blockbuilder-content"><div class="gbb-row-wrapper">
+                                                                                        <div class=" gbb-row bg-size-cover" style="">
+                                                                                            <div class="bb-inner remove_margin remove_padding remove_padding_col">
+                                                                                                <div class="bb-container container-fw">
+                                                                                                    <div class="row">
+                                                                                                        <div class="row-wrapper clearfix">
+                                                                                                            <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                                                                <div class="column-inner  bg-size-cover ">
+                                                                                                                    <div class="column-content-inner">
+                                                                                                                        <div class="widget gsc-block-drupal title-align-left  hidden-title-on remove-margin-on text-dark">
+                                                                                                                            <div id="block-gaviassliderlayerslider1" class="block block-gavias-sliderlayer block-gavias-sliderlayer-blockgavias-sliderlayer-block____1 no-title">
+                                                                                                                                <div class="content block-content">
+                                                                                                                                    <div class="gavias_sliderlayer rev_slider_wrapper fullwidthbanner-container" style="height:750px">
+                                                                                                                                        <div id="qnayd" class="rev_slider fullwidthabanner" data-version="5.4.1">
+                                                                                                                                            <ul>
+                                                                                                                                                <li data-transition="random" data-easein="Power0.easeIn" data-easeout="Power1.easeOut" data-slotamount="7" data-kenburns="off" data-masterspeed="default" data-index="rs-2">
+                                                                                                                                                    <img class="rev-slidebg" src="images/slider-2.jpg" alt="" data-duration="300" data-bgparallax="0" data-scalestart="0" data-scaleend="0" data-kenburns="off" data-bgrepeat="no-repeat" style="background-color:#f2f2f2" data-bgfit="cover" data-bgposition="center top" />
+                                                                                                                                                    <div class="tp-caption text text-white  slide-style-2" data-x="20" data-y="280" data-start="1000.00" data-transform_idle="o:1;" data-transform_in="x:inherit;y:inherit;z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;s:600;e:easeOutExpo;" style="z-index:4">
+                                                                                                                                                        Hola, en qué<br> te puedo ayudar?
+                                                                                                                                                    </div>
+                                                                                                                                                    <div class="tp-caption text text-white " data-x="20" data-y="380" data-start="1500.00" data-transform_idle="o:1;" data-transform_in="x:inherit;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:600;e:easeOutExpo;" style="z-index:3;font-size:20px;">
+                                                                                                                                                        Dale confianza a tu cliente, con un canal <br>permanente de atención.</div>
+                                                                                                                                                    <div class="tp-caption text btn-slide " data-x="20" data-y="460" data-start="2000.00" data-transform_idle="o:1;" data-transform_in="x:inherit;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:600;e:easeOutExpo;" style="z-index:2">
+                                                                                                                                                        <a href="#info-gral" class="ancla">Más Info.</a>
+                                                                                                                                                    </div>
+                                                                                                                                                </li>
+
+                                                                                                                                            </ul>
+                                                                                                                                            <div class="tp-bannertimer tp-top"></div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div> </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="gbb-row-wrapper" id="funcionalidades">
+                                                                                        <div class=" gbb-row bg-size-default" style="padding-top:20px; padding-bottom:20px; background-color:#f5f5f5">
+                                                                                            <div class="bb-inner default">
+                                                                                                <div class="bb-container container">
+                                                                                                    <div class="row">
+                                                                                                        <div class="row-wrapper clearfix">
+                                                                                                            <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                                                                <div class="column-inner  bg-size-cover ">
+                                                                                                                    <div class="column-content-inner">
+                                                                                                                        <div class="widget gsc-heading  align-center style-1 text-dark ">
+                                                                                                                            <h2 class="title"><span>Funcionalidades</span><span class="heading-line"></span></h2> <div class="title-desc">
+                                                                                                                                <p>Establezca una comunicación inmediata a través de una plataforma tecnológica de última generación (web y app)con sus clientes de forma totalmente personalizada.</p></div> </div>
+                                                                                                                        <div class="clearfix"></div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="gsc-column col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                                                                                <div class="column-inner  bg-size-cover ">
+                                                                                                                    <div class="column-content-inner">
+                                                                                                                        <div class="widget gsc-box-hover clearfix " style="min-height:250px;">
+                                                                                                                            <div class="box-content">
+                                                                                                                                <div class="frontend">
+                                                                                                                                    <div class="image"><img src="images/service-1.jpg" alt="" /></div> <div class="frontend-content">
+                                                                                                                                        <div class="box-title">
+                                                                                                                                            <a class="box-link" href="#">Métricas efectivas</a>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                                <div class="backend">
+                                                                                                                                    <div class="content-be">
+                                                                                                                                        <div class="box-title">
+                                                                                                                                            <a class="box-link" href="#">Métricas efectivas</a>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="be-desc"><p>Los analistas del chat en línea, le permiten a tu negocio conocer que tan satisfecho esta tu cliente  y te ayudará a detectar posibles problemas. Así mismo podrá conocer el performance y desempeño de tus agentes con los indicadores de atención.</p></div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="gsc-column col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                                                                                <div class="column-inner  bg-size-cover ">
+                                                                                                                    <div class="column-content-inner">
+                                                                                                                        <div class="widget gsc-box-hover clearfix " style="min-height:250px;">
+                                                                                                                            <div class="box-content">
+                                                                                                                                <div class="frontend">
+                                                                                                                                    <div class="image"><img src="images/service-2.jpg" alt="" /></div> <div class="frontend-content">
+                                                                                                                                        <div class="box-title">
+                                                                                                                                            <a class="box-link" href="#">Comunicación Inmediata</a>
+                                                                                                                                        </div>
+
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                                <div class="backend">
+                                                                                                                                    <div class="content-be">
+                                                                                                                                        <div class="box-title">
+                                                                                                                                            <a class="box-link" href="#">Comunicación Inmediata</a>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="be-desc"><p>Podrás disponer de chats en línea desde páginas web, aplicaciones móviles, entre otras; otorgando a tu cliente la
+                                                                                                                                                flexibilidad para contactarte en el momento que lo requieran.</p></div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="gsc-column col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                                                                                <div class="column-inner  bg-size-cover ">
+                                                                                                                    <div class="column-content-inner">
+                                                                                                                        <div class="widget gsc-box-hover clearfix " style="min-height:250px;">
+                                                                                                                            <div class="box-content">
+                                                                                                                                <div class="frontend">
+                                                                                                                                    <div class="image"><img src="images/service-3.jpg" alt="" /></div> <div class="frontend-content">
+                                                                                                                                        <div class="box-title">
+                                                                                                                                            <a class="box-link" href="#">Formularíos de autoatención</a>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                                <div class="backend">
+                                                                                                                                    <div class="content-be">
+                                                                                                                                        <div class="box-title">
+                                                                                                                                            <a class="box-link" href="#">Formularíos de autoatención</a>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="be-desc"><p>Utiliza nuestra solución para pedir información a tus clientes antes de iniciar una atención en línea.</p></div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+
+                                                                                                        </div>
+                                                                                                    </div>
+
+
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div style="background-repeat: no-repeat;background-position:center center;" class="gva-parallax-inner skrollable skrollable-between bg-size-default" data-bottom-top="top: -68%;" data-top-bottom="top: 0%;"></div>
+                                                                                        </div>
+                                                                                    </div>
+
+
+                                                                                    <div class="gbb-row-wrapper" id="info-gral">
+                                                                                        <div class=" gbb-row bg-size-cover gsc-equal-height" style="">
+                                                                                            <div class="bb-inner default">
+                                                                                                <div class="bb-container container">
+                                                                                                    <div class="row">
+                                                                                                        <div class="row-wrapper clearfix">
+                                                                                                            <div class="gsc-column col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                                                                                <div class="column-inner  bg-size-cover ">
+                                                                                                                    <div class="column-content-inner">
+                                                                                                                        <div class="widget gsc-image text-center  wow fadeIn">
+                                                                                                                            <div class="widget-content">
+                                                                                                                                <img src="images/benef.jpg" alt="" />
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="gsc-column col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                                                                                <div class="column-inner  bg-size-cover margin-top-30">
+                                                                                                                    <div class="column-content-inner">
+                                                                                                                        <div class="widget gsc-heading  align-left style-2 text-dark ">
+                                                                                                                            <h2 class="title"><span>Beneficios</span><span class="heading-line"></span></h2> </div>
+                                                                                                                        <div class="clearfix"></div>
+                                                                                                                        <div class="widget gsc-icon-box left text-dark">
+                                                                                                                            <div class="highlight-icon">
+                                                                                                                                <span class="icon-container fa-2x   text-theme ">
+                                                                                                                                    <span class="icon"><i class="fa fa-line-chart" aria-hidden="true"></i></span> </span>
+                                                                                                                            </div>
+                                                                                                                            <div class="highlight_content">
+                                                                                                                                <div class="title">Incrementa tus ventas</div>
+                                                                                                                                <div class="desc">
+                                                                                                                                    <p>La probabilidad de una compra es 30% mayor cuando la comunicación es efectiva y en el momento oportuno.</p></div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                        <div class="widget gsc-icon-box left text-dark">
+                                                                                                                            <div class="highlight-icon">
+                                                                                                                                <span class="icon-container fa-2x   text-theme ">
+                                                                                                                                    <span class="icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></span> </span>
+                                                                                                                            </div>
+                                                                                                                            <div class="highlight_content">
+                                                                                                                                <div class="title">Siempre disponible para tu cliente</div>
+                                                                                                                                <div class="desc"><p>Ofrece a tus clientes ayuda en el momento oportuno.</p></div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                        <div class="widget gsc-icon-box left text-dark">
+                                                                                                                            <div class="highlight-icon">
+                                                                                                                                <span class="icon-container fa-2x   text-theme ">
+                                                                                                                                    <span class="icon"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></span> </span>
+                                                                                                                            </div>
+                                                                                                                            <div class="highlight_content">
+                                                                                                                                <div class="title">Incrementa la satisfacción de tu cliente</div>
+                                                                                                                                <div class="desc"><p>Tus agentes se convertirán en el soporte inmediato de tus clientes, reduciendo los tiempos de atención y elevando su satisfacción</p></div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+
+
+
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div class="gbb-row-wrapper" id="contactanos">
+                                                                                        <div class=" gbb-row bg-size-cover" style="background-color:#f6f6f6">
+                                                                                            <div class="bb-inner default">
+                                                                                                <div class="bb-container container">
+                                                                                                    <div class="row">
+                                                                                                        <div class="row-wrapper clearfix">
+                                                                                                            <div class="gsc-column col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                                                                                <div class="column-inner  bg-size-cover ">
+                                                                                                                    <div class="column-content-inner">
+                                                                                                                        <div class="widget gsc-heading  align-left style-1 text-dark ">
+                                                                                                                            <h2 class="title"><span>REGÍSTRATE PARA INICIAR TU PRUEBA GRATIS</span><span class="heading-line"></span></h2> </div>
+                                                                                                                        <div class="clearfix"></div>
+                                                                                                                        <div class="column-content">
+                                                                                                                            <div class="column-inner  bg-size-cover ">
+                                                                                                                                <div class="column-content-inner">
+                                                                                                                                    <div class="widget gsc-icon-box left text-dark icon-border icon-background">
+                                                                                                                                        <div class="highlight-icon">
+                                                                                                                                            <span>
+                                                                                                                                                <i class="fa fa-mobile-phone"></i>
+                                                                                                                                            </span> 
+                                                                                                                                        </div>
+                                                                                                                                        <div class="highlight_content">
+                                                                                                                                            <div class="title">Llámanos</div>
+                                                                                                                                            <div class="desc"><p><!--+51 952684251-->996287380</p></div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                    <div class="widget gsc-icon-box left text-dark icon-border icon-background">
+                                                                                                                                        <div class="highlight-icon">
+                                                                                                                                            <span>
+                                                                                                                                                <i class="fa fa-envelope-o"></i>
+                                                                                                                                            </span>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="highlight_content">
+                                                                                                                                            <div class="title">Escríbenos</div>
+                                                                                                                                            <div class="desc"><p>contacto@easycom.com.pe</p></div>
+                                                                                                     <br>
+                                               Calle Cantuarias 160, Oficina 306, Miraflores                                                   </div>
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                                    </div>
+                                                                                                                                    <!--div class="widget gsc-icon-box left text-dark icon-border icon-background">
+                                                                                                                                        <div class="highlight-icon">
+                                                                                                                                            <span>
+                                                                                                                                                <i class="fa fa-share-alt" ></i>
+                                                                                                                                            </span>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="highlight_content">
+                                                                                                                                            <div class="title">Síguenos</div>
+                                                                                                                                            <div class="desc">
+                                                                                                                                                <div class="widget gsc-socials  style-2">
+                                                                                                                                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                                                                                                                                    <a href="#"><i class="fa fa-behance"></i></a>
+                                                                                                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                                                                                                                                    <a href="#"><i class="fa fa-pinterest-p "></i></a>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div-->
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div> 
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="gsc-column col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                                                                                <div class="column-inner  bg-size-cover ">
+                                                                                                                    <div class="column-content-inner">
+                                                                                                                        <div class="content block-content">
+                                                                                                                            <form class="contact-message-feedback-form contact-message-form contact-form" data-user-info-from-browser data-drupal-selector="contact-message-feedback-form" action="" method="post" id="contact-message-feedback-form" accept-charset="UTF-8">
+                                                                                                                                <div class="contact-feedback">
+                                                                                                                                    <div class="form-group">
+                                                                                                                                        <div class="js-form-item form-item js-form-type-textfield form-item-name js-form-item-name form-no-label">
+                                                                                                                                            <input placeholder="Nombres*" class="form-control form-text required" data-drupal-selector="edit-name" type="text" id="edit-name" name="name" value="" size="60" maxlength="255" required aria-required="true" />
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                    <div class="form-group">
+                                                                                                                                        <div class="js-form-item form-item js-form-type-email form-item-mail js-form-item--mail form-no-label">
+                                                                                                                                            <input placeholder="Email*" class="form-control form-email required" data-drupal-selector="edit-mail" type="email" id="edit-mail" name="mail" value="" size="60" maxlength="254" required aria-required="true" />
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                    <div class="form-group">
+                                                                                                                                        <div class="js-form-item form-item js-form-type-textfield form-item-subject-0-value js-form-item-subject-0-value form-no-label">
+                                                                                                                                            <div class="field--type-string field--name-subject field--widget-string-textfield js-form-wrapper form-wrapper" data-drupal-selector="edit-subject-wrapper" id="edit-subject-wrapper"> 
+                                                                                                                                                <input class="js-text-full text-full form-control form-text required" placeholder="Asunto*" data-drupal-selector="edit-subject-0-value" type="text" id="edit-subject-0-value" name="subject" value="" size="60" maxlength="100" required aria-required="true" />
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                    <div class="form-group">
+                                                                                                                                        <div class="field--type-string-long field--name-message field--widget-string-textarea js-form-wrapper form-wrapper" data-drupal-selector="edit-message-wrapper" id="edit-message-wrapper"> 
+                                                                                                                                            <div class="clearfix">
+
+                                                                                                                                                <div class="js-form-item form-item js-form-type-textarea form-item-message-0-value js-form-item-message-0-value form-no-label">
+                                                                                                                                                    <div>
+                                                                                                                                                        <textarea class="js-text-full text-full form-control form-textarea required" placeholder="Mensaje*" data-drupal-selector="edit-message-0-value" id="edit-message-0-value" name="message" rows="12" cols="60" required aria-required="true"></textarea>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                    <input autocomplete="off" data-drupal-selector="form-ww5nql9t1j-abcikharyqprsexpwrd-s8qrecrsbfl4" type="hidden" name="form_build_id" value="form-WW5nql9t1J_AbCikhARyQprSEXpWRD_s8qRECRSBFL4" />
+                                                                                                                                    <input data-drupal-selector="edit-contact-message-feedback-form" type="hidden" name="form_id" value="contact_message_feedback_form" />
+                                                                                                                                    <div class="field--type-language field--name-langcode field--widget-language-select js-form-wrapper form-wrapper" data-drupal-selector="edit-langcode-wrapper" id="edit-langcode-wrapper">
+                                                                                                                                    </div>
+                                                                                                                                    <div class="clearfix">
+                                                                                                                                        <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+                                                                                                                                            <input class="btn btn-theme-submit button button--primary js-form-submit form-submit" data-drupal-selector="contacto-submit" type="submit" id="contacto-submit" name="op" value="Enviar" />
+                                                                                                                                            <div class="loading-enviar">
+                                                                                                                                                <div class="enviando" style="display:none;"><img src="images/cargando.gif"> <span><b>Enviando</b></span></div>
+                                                                                                                                                <div class="enviado" style="display:none;"><i class="fa fa-check" aria-hidden="true"></i> <span><b>Enviado</b></span></div>
+                                                                                                                                                <div class="no-enviado" style="display:none;"><i class="fa fa-times" aria-hidden="true"></i> <span><b>No Enviado</b></span></div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </form>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="gbb-row-wrapper">
+                                                                                        <div class=" gbb-row bg-size-cover" style="">
+                                                                                            <div class="bb-inner default">
+                                                                                                <div class="bb-container container">
+                                                                                                    <div class="row">
+                                                                                                        <div class="row-wrapper clearfix">
+                                                                                                            <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                                                                <div class="column-inner  bg-size-cover ">
+                                                                                                                    <div class="column-content-inner">
+                                                                                                                        <div>
+                                                                                                                            <div class="widget block gsc-block-view  gsc-block-drupal block-view title-align-left  text-dark remove-margin-off">
+                                                                                                                                <div class="views-element-container">
+                                                                                                                                    <div class="text-center gva-view">
+                                                                                                                                       <div class="owl-carousel init-carousel-owl" data-items="4" data-items_lg="5" data-items_md="4" data-items_sm="3" data-items_xs="2" data-loop="1" data-speed="200" data-auto_play="1" data-auto_play_speed="1000" data-auto_play_timeout="3000" data-auto_play_hover="1" data-navigation="1" data-rewind_nav="0" data-pagination="0" data-mouse_drag="1" data-touch_drag="1">
+                                                                                                                                            <div class="item">
+                                                                                                                                                <div class="gva-carousel-5 text-center"><div class="views-field views-field-field-image"><div class="field-content"> <img src="images/brand-dark-1.png" alt="alt" typeof="foaf:Image" />
+                                                                                                                                                        </div></div></div>
+                                                                                                                                            </div>
+                                                                                                                                            <div class="item">
+                                                                                                                                                <div class="gva-carousel-5 text-center"><div class="views-field views-field-field-image"><div class="field-content"> <img src="images/brand-dark-2.png" alt="alt" typeof="foaf:Image" />
+                                                                                                                                                        </div></div></div>
+                                                                                                                                            </div>
+                                                                                                                                            <div class="item">
+                                                                                                                                                <div class="gva-carousel-5 text-center"><div class="views-field views-field-field-image"><div class="field-content"> <img src="images/brand-dark-3.png" alt="alt" typeof="foaf:Image" />
+                                                                                                                                                        </div></div></div>
+                                                                                                                                            </div>
+                                                                                                                                            <div class="item">
+                                                                                                                                                <div class="gva-carousel-5 text-center"><div class="views-field views-field-field-image"><div class="field-content"> <img src="images/brand-dark-4.png" alt="alt" typeof="foaf:Image" />
+                                                                                                                                                        </div></div></div>
+                                                                                                                                            </div>
+                                                                                                                                            
+                                                                                                                                        </div>
+																																	</div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div> 
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </article>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer id="footer" class="footer">
+                <div class="footer-inner">
+                    <div class="footer-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="footer-first col-lg-3 col-md-3 col-sm-6 col-xs-12 column">
+                                    <div>
+                                        <div id="block-contactinfo" class="block block-block-content block-block-content7da38301-272f-4979-8de1-06b564010f17">
+                                            <div class="content block-content">
+                                                <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                                                    <div class="contact-info">
+                                                        <img src="images/logo-propuesta2.png" width="160px"> 
+                                                        <span class="description">
+                                                            <br>
+                                                            Somos tu mejor opción en transformación digital y ahorros de gasto para tu empresa.
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer-second ccol-lg-2 col-md-2 col-sm-6 col-xs-12 column">
+                                    <div>
+                                        <div id="block-linkfooter" class="block block-block-content block-block-contentf68ff84d-6af0-4c49-8b85-ae338addc541">
+                                            <h2 class="block-title"><span>Menu</span></h2>
+                                            <div class="content block-content">
+                                                <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <ul class="menu" style="line-height: 18px">
+																<li><a href="#">Información General</a></li>
+                                                                <li><a href="#">Funcionalidades</a></li>
+                                                                <li><a href="#">Habla con Nosotros</a></li>
+																<li><a href="http://easycom.com.pe/proyecto_wizecom/">EASYCOM</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer-second col-lg-4 col-md-4 col-sm-6 col-xs-12 column">
+                                    <div>
+                                        <div id="block-linkfooter" class="block block-block-content block-block-contentf68ff84d-6af0-4c49-8b85-ae338addc541">
+                                            <h2 class="block-title"><span>Contacto</span></h2>
+                                            <div class="content block-content">
+                                                <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <ul class="contact-info">
+                                                                <li><span><i class="fa fa-home"></i> Calle Cantuarias 160, Oficina 306, Miraflores</span> </li>
+                                                                <li><span><i class="fa fa-mobile-phone"></i> <!--+51 952684251-->996287380</span></li>
+                                                                <li><a href=""><i class="fa fa-envelope-o"></i> contacto@easycom.com.pe </a> </li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer-third col-lg-3 col-md-3 col-sm-6 col-xs-12 column">
+                                    <div>
+                                        <div id="block-businesshour" class="block block-block-content block-block-contentf1ba2619-fe59-459a-85a3-922d47d5cf96">
+                                            <h2 class="block-title"><span>Suscríbete</span></h2>
+                                            <div class="content block-content">
+                                                <form class="contact-message-feedback-form contact-message-form contact-form" data-user-info-from-browser data-drupal-selector="contact-message-feedback-form" action="/drupal/kiamo/contact" method="post" id="contact-message-feedback-form" accept-charset="UTF-8">
+                                                    <div class="contact-feedback"><div class="form-group">
+                                                            <div class="js-form-item form-item js-form-type-textfield form-item-name js-form-item-name form-no-label">
+                                                                <input placeholder="Nombres*" class="form-control form-text required" data-drupal-selector="edit-name" type="text" id="edit-name" name="name" value="" size="60" maxlength="255" required="required" aria-required="true" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix">
+                                                            <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+                                                                <input class="btn btn-theme-submit button button--primary js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Suscribirme" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <div class="copyright-inner">
+                            <div>
+                                <div id="block-copyright" class="block block-block-content block-block-content61f17841-749f-436d-9799-1dfeefd7ad43 no-title">
+                                    <div class="content block-content">
+                                        <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="text-center">
+                                                © Copyright <a href="">Easycom Solutions</a> 2019. Todos los derechos reservados.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <button onclick="/*topFunction()*/" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+
+        <script type="text/javascript">
+
+            jQuery(document).ready(function ($) {
+                jQuery('#qnayd').show().revolution(
+                        {"delay": 9000, "gridheight": 750, "gridwidth": 1170, "minHeight": 0, "autoHeight": "off", "sliderType": "standard", "sliderLayout": "auto", "fullScreenAutoWidth": "on", "fullScreenAlignForce": "off", "fullScreenOffsetContainer": "", "fullScreenOffset": "0", "hideCaptionAtLimit": 0, "hideAllCaptionAtLimit": 0, "hideSliderAtLimit": 0, "disableProgressBar": "off", "stopAtSlide": -1, "stopAfterLoops": -1, "shadow": "0", "dottedOverlay": "none", "startDelay": 0, "lazyType": "none", "spinner": "spinner0", "shuffle": "off", "debugMode": 0, "parallax": {"type": "mouse", "origo": "slidercenter", "speed": 2000, "levels": [4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55]}, "navigation": {"onHoverStop": "on", "touch": {"touchenabled": "on"}, "arrows": {"enable": true, "left": {"h_align": "left", "v_align": "center", "h_offset": 20, "v_offset": 0}, "right": {"h_align": "right", "v_align": "center", "h_offset": 20, "v_offset": 0}}, "bullets": {"enable": true, "v_align": "bottom", "h_align": "center", "v_offset": 20, "space": 10, "tmp": ""}}});
+            });
+        </script>
+        <script>
+            var id_user = '00000000';
+            var LHCChatOptions = {};
+            LHCChatOptions.opt = {widget_height: 340, widget_width: 300, popup_height: 520, popup_width: 500, domain: 'localhost/web_chat/'};
+            (function () {
+                var po = document.createElement('script');
+                po.type = 'text/javascript';
+                po.async = true;
+                var referrer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://') + 1)) : '';
+                var location = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
+                /*po.src = 'http://181.65.211.138:8089/chat/lhc_web_wiz/index.php/eng/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(top)/350/(units)/pixels/(leaveamessage)/true/(department)/1/(doc)?r=' + referrer + '&l=' + location;*/
+                po.src = '/chat/lhc_web/index.php/eng/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(top)/350/(units)/pixels/(leaveamessage)/true/(department)/1/(doc)?r=' + referrer + '&l=' + location;
+                var s = document.getElementsByTagName('script')[0];
+                console.log(s);
+                s.parentNode.insertBefore(po, s);
+            })();
+        </script>
+        <script>
+
+            $('.ancla').click(function () {
+                $('html, body').stop().animate({
+                    scrollTop: $($(this).attr('href')).offset().top
+                }, 1000);
+                return false;
+            });
+        </script>
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () {
+                scrollFunction();
+            };
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+
+            $('#myBtn').click(function () {
+                $('html,body').animate({scrollTop: 0}, 400);
+                return false;
+            });
+
+            $("#contact-message-feedback-form").validate({
+                submitHandler: function (form) {
+                    $("#contacto-submit").prop("disabled", true);
+                    $(".enviado,.no-enviado").hide();
+                    $(".enviando").show(function () {
+                        $.ajax({
+                            url: "control/contacto/contactenos.php",
+                            type: "POST",
+                            data: $("#contact-message-feedback-form").serialize(),
+                            dataType: "json",
+                            success: function (rpt) {
+                                alert(rpt.MENSAJE);
+                                if (rpt.nromsg == 1) {
+                                    $("#contact-message-feedback-form")[0].reset();
+                                    $(".enviando").hide(function () {
+                                        $(".enviado").show();
+                                        $("#contacto-submit").prop("disabled", false);
+                                    });
+                                } else {
+                                    $("#edit-submit").prop("disabled", false);
+                                    $(".enviando").hide(function () {
+                                        $(".no-enviado").show();
+                                        $("#contacto-submit").prop("disabled", false);
+                                    });
+                                }
+                            }
+                        });
+                    });
+
+                }
+            });
+            /*$("#contact-message-feedback-form").on("submit", function (e) {
+             e.preventDefault();
+             $.ajax({
+             url: "control/contacto/contactenos.php",
+             type: "POST",
+             data: $("#contact-message-feedback-form").serialize(),
+             dataType: "json",
+             success: function (rpt) {
+             alert(rpt.MENSAJE);
+             if (rpt.nromsg == 1) {
+             location.reload();
+             }
+             }
+             });
+             });*/
+
+        </script>
+    </body>
+</html>
